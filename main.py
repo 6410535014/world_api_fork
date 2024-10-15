@@ -20,6 +20,7 @@ async def read_root() -> dict:
     return {"message": "Hello there"}
 
 
+
 # define function that handles "GET" request with endpoint "/world"
 # list all countries
 @app.get("/world")
